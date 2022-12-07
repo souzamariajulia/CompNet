@@ -67,6 +67,21 @@ def editar():
             globalLista.insert(0, aq) #adicina na posição 0 
             print(globalLista) #so printa o nome editado da lista 
 editar()
+
+
+def menuSecundario():
+    print('''
+    ** EDITAR CARRINHO **
+    [1] Remover item do carrinho
+    [2] Ver descrição do carrinho
+    [3] Escolher horário de instalação
+    [4] Confirmar endereço
+    [5] Finalizar compra
+    ''')
+    
+    carrinhoEdit = int(input('Digite um número para continuar ou editar a compra: '))
+    if carrinhoEdit == 1:
+        
     
 
 
